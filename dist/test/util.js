@@ -120,6 +120,8 @@ System.register(['lodash'], function (_export, _context) {
         }, {
           key: 'templateToStr',
           value: function templateToStr(tmp_str) {
+            console.log('tmp_str');
+            console.log(tmp_str);
             if (this.isEmpty(tmp_str)) {
               return [];
             }

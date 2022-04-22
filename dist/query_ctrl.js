@@ -68,6 +68,7 @@ System.register(['app/plugins/sdk', './util.js', './css/query-editor.css!'], fun
 
           var _this = _possibleConstructorReturn(this, (GenericDatasourceQueryCtrl.__proto__ || Object.getPrototypeOf(GenericDatasourceQueryCtrl)).call(this, $scope, $injector, templateSrv));
 
+          // console.log(this);
           _this.scope = $scope;
           _this.util = new Util(templateSrv);
           _this.target.type = _this.target.type || 'timeserie';

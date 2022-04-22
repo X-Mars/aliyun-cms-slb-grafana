@@ -1,17 +1,17 @@
 {
-  "name": "CMS Grafana Service",
-  "id": "aliyun_cms_grafana_datasource",
+  "name": "CMS SLB Grafana Service",
+  "id": "aliyun_cms_grafana_datasource_slb",
   "type": "datasource",
 
   "partials": {
-    "config": "public/app/plugins/datasource/aliyun-cms-grafana/partials/config.html"
+    "config": "public/app/plugins/datasource/aliyun-cms-grafana_slb/partials/config.html"
   },
 
   "metrics": true,
   "annotations": true,
 
   "info": {
-    "description": "plugin for aliyun CMS",
+    "description": "plugin for aliyun CMS SLB",
     "author": {
       "name": "aliyun CMS Team",
       "url": "https://aliyun.com/product/jiankong"

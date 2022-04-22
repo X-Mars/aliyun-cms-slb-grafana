@@ -19,7 +19,7 @@
     "url": "http://gitlab.alibaba-inc.com/cms/aliyun-cms-grafana.git"
   },
   "engines": {
-    "node": "14.2.0"
+    "node": "16.14.0"
   },
   "engineStrict": true,
   "devDependencies": {
@@ -45,6 +45,7 @@
     "babel-preset-es2015": "^6.24.1",
     "lodash": "^4.17.4",
     "mocha": "^8.0.1",
+    "nslookup": "^1.1.1",
     "package.json": "^2.0.1"
   },
   "homepage": "http://gitlab.alibaba-inc.com/cms/aliyun-cms-grafana.git"

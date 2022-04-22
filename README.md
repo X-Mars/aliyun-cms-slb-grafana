@@ -1,5 +1,10 @@
 # aliyun-cms-grafana数据源使用说明文档
 
+## 20220422 更新
+1. 为 V1.0 分支添加通过域名检索slb云监控的功能
+2. 需要在 **dashboard** 添加名为**host** 的变量，值为 **解析到slb的域名**
+3. 添加Pannel时，Namespace 选择 **acs_slb_dashboard** ，Metric 选择需要监控的数据，Period 选择 60，Group空着，**Dimensions** 填写 **$host** ，其他按需填写
+
 ## 1、安装云监控grafana数据源
     a.下载数据源插件,将解压后的文件夹放入grafana安装目录下的数据源目录中(${GRAFANA_HOME}\public\app\plugins\);
     b.重启grafana即完成安装。service grafana-server restart。

@@ -6,6 +6,7 @@ export class GenericDatasourceQueryCtrl extends QueryCtrl {
 
   constructor($scope, $injector, templateSrv)  {
     super($scope, $injector,templateSrv);
+    // console.log(this);
     this.scope = $scope;
     this.util = new Util(templateSrv);
     this.target.type = this.target.type || 'timeserie';

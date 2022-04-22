@@ -68,6 +68,8 @@ export class Util {
 
   //处理str模板变量数据
   templateToStr(tmp_str){
+    console.log('tmp_str')
+    console.log(tmp_str)
     if(this.isEmpty(tmp_str)){
       return [];
     }
